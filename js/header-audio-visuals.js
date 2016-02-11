@@ -48,6 +48,7 @@
 
   COLORS = ['#69D2E7', '#1B676B', '#BEF202', '#EBE54D', '#00CDAC', '#1693A5', '#F9D423', '#FF4E50', '#E7204E', '#0CCABA', '#FF006F'];
 
+  if (/bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent)) return;
   AudioAnalyser = (function() {
     AudioAnalyser.AudioContext = self.AudioContext || self.webkitAudioContext;
 

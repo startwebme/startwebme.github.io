@@ -49,6 +49,7 @@ http://startweb.me - Inspiration for Beginning Web Developers
 * Google as a search engine
 * CDNS and external content hosts
 * Inspiration and code fragments from http://blackrockdigital.github.io/startbootstrap-creative/
+* Inspiration for background gradients http://codepen.io/taylorvowell/pen/BkxbC
 * DevTips, Codecademy, Udacity, GitHub, Meetup and Lanyrd for having available content to use and link to
 * Projects like jQuery, Google Analytics, Animate.css, Hover.css, textillate, sketch, wow.js etc. for their code
 * Chrome and Atom for great dev tools - w00t!

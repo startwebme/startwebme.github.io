@@ -36,6 +36,7 @@ http://startweb.me - Inspiration for Beginning Web Developers
 * Fontawesome (Chrome logo in footer) - http://fortawesome.github.io/Font-Awesome/icon/chrome/
 * Travel graphic - https://image.freepik.com/free-vector/airplane-holiday-vector-template_23-2147491300.jpg
 * Wikipedia and Wikimedia
+* Formspree and Mailinator
 * Chrome and Atom Squarish icons - http://flaticns.com/
 * Atom icon in footer - http://electron.atom.io/
 * Miscellaneous glyphs in footer - https://octicons.github.com/

@@ -25,6 +25,7 @@ http://startweb.me - Inspiration for Beginning Web Developers
 * Demonstrating advanced conceptual design through conceiving personas and gearing content to them
 * Use of tools relevant in web development culture
 * Demonstrating strategic use of content while maintaining balance
+* Demonstrating use of a Collaboration technologies (Git VCS and GitHub)
 * Collecting and curating relevant and valuable external web development content from third-party services (DevTips, Codecademy, Udacity, GitHub)
 * Enthusiasm for web culture :)
 * Artistic construction of rhetorical devices to persuade visitors to become (great) web developers

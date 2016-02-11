@@ -28,7 +28,8 @@ http://startweb.me - Inspiration for Beginning Web Developers
 
 
 
-## Credits - THANK YOU THANK YOU THANK YOU SOOOOO MUCH FOR PROVIDING CONTENT FOR ME TO LEVERAGE! <3
+## Credits
+ THANK YOU THANK YOU THANK YOU SOOOOO MUCH FOR PROVIDING CONTENT FOR ME TO LEVERAGE! <3
 * Background Music - https://soundcloud.com/jacoo/crossing-winds-original
 * Banner Background Inspiration - http://codepen.io/soulwire/pen/Dscga (background music was also changed in addition to shape changes)
 * Knight favicon and logo (in footer) images - http://bootstraptaste.com/demo/Knight/

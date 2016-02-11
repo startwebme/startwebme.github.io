@@ -1,9 +1,232 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title> Start Web </title>
-</head>
-<body>
-<h1>Under Construction</h1>
-</body>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Start Web</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/paper/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.4.1/octicons.min.css" rel="styleSheet" type="text/css">
+    <link href="css/header-style.css" rel="stylesheet" type="text/css">
+    <link href="css/custom-theme.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body id="STARTWEB" data-spy="scroll" data-target=".navbar" data-offset="100">
+    <nav class="navbar navbar-default navbar-fixed-top affix-top" data-spy="affix" data-offset-top="40">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed hidden" data-toggle="collapse" data-target="#nav-menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <h1><a class="navbar-brand page-scroll" href="#STARTWEB">Start Web</a></h1>
+
+              </div>
+
+                <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#install">Install</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#explore">Explore</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+
+    <div id="container"></div>
+    <h3 class="animated-text">
+        <ul class="texts">
+            <li data-in-shuffle="true" data-in-effect="fadeIn" data-out-effect="fadeOut" data-out-sync="true">We Want to Inspire You</li>
+            <li data-in-sequence="true" data-in-effect="fadeIn" data-out-effect="fadeOut" data-out-sync="true">To Become a Great Web Developer</li>
+            <li data-in-sync="true" data-in-effect="fadeInDown" data-out-effect="fadeOut" data-out-sync="true">By Showing You Awesome Resources</li>
+            <li data-in-reverse="true" data-in-effect="rollIn" data-out-effect="fadeOut" data-out-sync="true">To Get Your Projects Going</li>
+            <li data-in-shuffle="true" data-in-effect="bounce" data-out-effect="fadeOut" data-out-sync="true">Let's Get Started!</li>
+        </ul>
+    </h3>
+<div class="message" id="warning1">
+  <h1>
+    For optimal experience, this site requires
+    <a href="https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html" target="_blank">Web Audio API</a>
+    <br/>
+    Please try in one of
+    <a href="http://caniuse.com/#feat=audio-api" target="_blank">these browsers</a>
+  </h1>
+</div>
+<div class="message" id="warning2">
+  <h1>
+    Safari users. You may hear audio but see no visuals. This is due to
+    <a href="http://goo.gl/6WLx1" target="_blank">this bug</a>
+    in Safari 6
+  </h1>
+</div>
+<div class="message" id="intro">
+  <h1>Loading Audio&hellip;</h1>
+</div>
+</header>
+<main id="content">
+  <section id="install">
+        <div class="container">
+                <div class="col-lg-12 text-center">
+                    <h2>Install and Master Awesome Tools of the Trade</h2>
+                    <hr class="primary">
+                </div>
+        </div>
+        <div class="container">
+                <div class="col-md-5 col-md-offset-1 text-center">
+                        <h3><a  class="hvr-bob" href="https://www.google.com/chrome/">
+                          <img class="wow flipInY" data-wow-delay=".3s" src="img/chrome.png" title="Chrome" alt="Chrome"><br/>
+                          Get Chrome</a></h3>
+                        <p class="text-muted">Develop easier with a developer friendly browser!</p>
+
+                </div>
+                <div class="col-md-5 text-center">
+                        <h3><a class="hvr-bob" href="https://atom.io/" target="_blank">
+                            <img class="wow flipInY" data-wow-delay="1s" src="img/atom.png" title="Atom" alt="Atom"><br/>
+                          Get Atom</a></h3>
+                        <p class="text-muted">Using a modern text editor will help you learn faster!</p>
+
+                </div>
+
+        </div>
+    </section>
+    <section id="explore">
+          <div class="container">
+                  <div class="col-md-12 text-center">
+                      <h2>Explore Web Tech at Your Own Pace!</h2>
+                      <hr>
+                  </div>
+          </div>
+          <div class="container-fluid">
+                  <div class="col-md-4 text-center">
+
+                          <h3><a class="hvr-bob" href="https://www.youtube.com/watch?v=s7ONvIgOWdM&list=PLqGj3iMvMa4IOmy04kDxh_hqODMqoeeCy" target="_blank">
+                            <i class="DEVTIPS wow fadeInLeft" data-wow-delay=".3s" title="DevTips" alt="DevTips"></i><br/>
+                            Watch DevTips</a></h3>
+
+                  </div>
+                  <div class="col-md-4 text-center">
+
+                          <h3><a class="hvr-bob" href="https://www.codecademy.com/skills/make-a-website" target="_blank">
+                            <i class="CODECADEMY wow fadeInDown" data-wow-delay="1s" title="Codecademy" alt="Codecademy"></i><br/>
+                            Try Codecademy</a></h3>
+
+                  </div>
+                  <div class="col-md-4 text-center">
+
+                          <h3><a class="hvr-bob"  href="https://www.udacity.com/courses/ud304" target="_blank">
+                              <i class="UDACITY wow  fadeInRight" data-wow-delay="2s" title="Udacity" alt="Udacity"></i><br/>
+                            Visit Udacity</a></h3>
+
+                  </div>
+
+          </div>
+      </section>
+      <section id="connect">
+            <div class="container">
+                    <div class="col-md-12 text-center">
+                        <h2>Connect and Share Your Experiences With Others!</h2>
+                        <hr>
+                    </div>
+            </div>
+            <div class="container-fluid">
+                    <div class="col-md-4 text-center">
+
+                            <h3><a class="hvr-bob" href="https://www.meetup.com/topics/web-development/" target="_blank">
+                              <i class="MEETUP wow rotateInDownRight" data-wow-delay=".3s" title="DevTips" alt="DevTips"></i><br/>
+                              Join a Local Meetup</a></h3>
+
+                    </div>
+                    <div class="col-md-4 text-center">
+
+                            <h3><a class="hvr-bob" href="https://guides.github.com/activities/hello-world/" target="_blank">
+                              <i class="GITHUB wow bounceInDown" data-wow-delay="1s" title="Codecademy" alt="Codecademy"></i><br/>
+                              Collaborate on GitHub</a></h3>
+
+                    </div>
+                    <div class="col-md-4 text-center">
+
+                            <h3><a class="hvr-bob"  href="https://lanyrd.com/topics/web-development/" target="_blank">
+                                <i class="TRAVEL wow zoomInUp" data-wow-delay="2s" title="Udacity" alt="Udacity"></i><br/>
+                              Travel Abroad to a Conference</a></h3>
+
+                    </div>
+
+            </div>
+        </section>
+</main>
+<footer>
+  <div class="container-fluid">
+          <div class="col-md-4 text-center">
+
+
+              <div class="thanks">
+                  <p>Special Thanks to:</p>
+                <a href="https://github.com/about"><i class="octicon octicon-mark-github"></i></a>
+                <a href="https://www.google.com/chrome/"><i class="fa fa-chrome"></i></a>
+                <a href="https://atom.io"><img class="icon-atom" src="img/atom-icon.png"></a>
+            </div>
+
+
+          </div>
+          <div class="col-md-4 text-center">
+
+              <div class="code-love">
+                <div><i class="octicon octicon-code"></i> with <i class="octicon octicon-heart"></i> by</div>
+
+            <a class="hvr-pulse-grow" href="https://github.com/knight-of-design">
+
+              <img src="img/logo.png">
+
+              <div>knight-of-design</div>
+              </div>
+            </a>
+
+
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="signup"><div>Sign up for Monthly Inspiration &amp; Win Prizes!</div>
+          <form class="form-inline" action="//formspree.io/info@startweb.me" method="POST">
+        		<input type="text" name="_gotcha">
+        		<input type="hidden" name="_subject" value="startweb.me submission">
+	        	<input type="email" class="form-control" placeholder="Email Address" name="_replyto" required>
+	        	<input type="hidden" value="Sign me up"/>
+	        	<button class="btn btn-primary" type="submit">Sign Up</button>
+        	</form>
+        </div>
+
+
+          </div>
+  </div>
+  <div class="credits">
+              <a href="https://github.com/startwebme/startwebme.github.io">Credits</a>
+
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="http://soulwire.github.io/sketch.js/js/sketch.min.js"></script>
+<script src="js/header-audio-visuals.js"></script>
+<script src="js/custom-theme.js"></script>
+
+
+  </body>
 </html>

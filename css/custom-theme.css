@@ -1,0 +1,266 @@
+#STARTWEB main#content :not(a){
+  color: #E1E1E1;
+}
+
+#STARTWEB .navbar-header h1 {
+  margin:0;
+  padding:0;
+}
+
+#STARTWEB .navbar-default {
+  background-color: #000000;
+  color: #FFFFFF;
+  transition: all 600ms ease-in;
+}
+
+#STARTWEB .icon-bar {
+  background-color: #FFFFFF;
+}
+
+#STARTWEB .navbar-default.affix-top {
+  background-color: rgba(255,255,255,0);
+  box-shadow: none;
+}
+
+#STARTWEB .navbar-default .navbar-brand {
+  color: #FFFFFF;
+  font-size: 18px;
+  padding-left: 25px;
+  text-transform: uppercase;
+}
+
+#STARTWEB .navbar-default a:hover {
+  color: #02A9E8;
+}
+
+#STARTWEB .navbar-right a {
+  transition: all 700ms ease-out;
+}
+
+#STARTWEB .navbar-right .active a {
+  color: #02A9E8;
+  background-color: inherit;
+  text-shadow: 1px 1px 1px #02A9E8;
+}
+
+#STARTWEB .navbar-default .navbar-right{
+  margin-right: 25px;
+  font-size: 24px;
+}
+
+#STARTWEB .navbar-default.affix-top .navbar-brand{
+  font-size: 24px;
+}
+
+#STARTWEB .navbar-default.affix-top .navbar-right{
+  font-size: 18px;
+}
+
+#STARTWEB main#content > section {
+  padding:30vh 0;
+  min-height: 100vh;
+  font-family: 'Muli', sans-serif;
+}
+
+#STARTWEB main#content h2 {
+  margin-top: -50px;
+
+}
+
+#STARTWEB main#content hr {
+  margin-bottom: 80px;
+}
+
+#STARTWEB main#content p {
+  font-size: 1.35em;
+}
+
+#STARTWEB main#content img {
+  width: 100px;
+}
+
+#STARTWEB main#content a {
+  text-decoration: none;
+  outline: none;
+  color: #E1E1E1;
+  transition: color 350ms ease-out;
+}
+
+#STARTWEB main#content a:hover {
+  color: #02A9E8;
+}
+
+#STARTWEB main#content a img {
+  margin-bottom: 20px;
+}
+
+#STARTWEB main#content i {
+    display: inline-block;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 345px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#STARTWEB hr {
+  width: 70px;
+}
+
+#STARTWEB #install {
+  background-color: #171717;
+  background-image: -webkit-radial-gradient(top, circle cover, #1C1C1C 0%, #090909 80%);
+  background-image: radial-gradient(top, circle cover, #1C1C1C 0%, #090909 80%);
+}
+
+#STARTWEB #explore {
+  background-color: #15001F;
+  background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(140,140,140,.3) 10%,rgba(70,70,70,0) 40%),
+              -webkit-linear-gradient(-45deg, #55001F 0%,#092756 100%);
+  background: radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.3) 10%,rgba(138,114,76,0) 40%),
+              linear-gradient(-45deg, #35001F 0%,#090056 100%);
+}
+
+#STARTWEB #connect {
+  background-color: ##012349;
+  background: -webkit-linear-gradient(#012345 0%, #000000 100%);
+}
+
+#STARTWEB #explore i {
+  min-height: 92px;
+  background-color: #FFFFFF;
+}
+
+#STARTWEB main#content #explore hr {
+  margin-bottom: 125px;
+}
+
+#STARTWEB #explore h3 {
+  margin-bottom: 100px;
+}
+
+#STARTWEB #connect i {
+  min-height: 300px;
+}
+
+#STARTWEB footer {
+  position: relative;
+  min-height: 40vh;
+  background: #000000;
+  background: -webkit-linear-gradient(#1A1A1A 0%, #000000 100%);
+  padding-top:75px;
+  font-size: 1.45em;
+
+}
+
+#STARTWEB footer, #STARTWEB footer a {
+  color: #E1E1E1;
+  text-decoration: none;
+  outline:none;
+}
+
+#STARTWEB footer .thanks {
+  min-height: 200px;
+}
+#STARTWEB footer .thanks i {
+  font-size: 50px;
+}
+
+#STARTWEB footer .thanks a {
+  margin: 5px 8px;
+}
+
+#STARTWEB footer .code-love {
+  margin-bottom: 8px;
+  min-height: 200px;
+}
+
+#STARTWEB footer .signup {
+  margin-top: 35px;
+  min-height: 200px;
+}
+
+#STARTWEB footer .signup input[name='_gotcha'] {
+  display: none;
+}
+
+#STARTWEB footer .signup input {
+  border: 1px solid rgba(255,255,255,0.5);
+  padding: 8px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  color: #444444;
+  box-shadow: none !important;
+}
+
+#STARTWEB footer .signup input[type='email'] {
+  width: 100%;
+  max-width: 330px;
+}
+
+#STARTWEB footer .signup form {
+  margin-top: 15px;
+}
+
+#STARTWEB footer ::-webkit-input-placeholder {
+  color: #555555 !important;
+}
+
+#STARTWEB footer .credits {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  font-size: 0.8em;
+}
+
+.DEVTIPS {
+  background-image: url('https://yt3.ggpht.com/-6rJ7h0RkygM/UsYGK1yAPAI/AAAAAAAAAG0/2S6Cb2Y0wPU/w2120-fcrop64=1,00005a57ffffa5a8-nd/channels4_banner.png');
+  background-size: 564px;
+  background-position-x: -100px;
+}
+
+.CODECADEMY {
+  background-image: url('http://s3.amazonaws.com/codecademy-blog/assets/logo_blue_dark.png');
+  background-size: 318px;
+
+}
+
+.UDACITY {
+  background-image: url('https://endor-dev.s3-us-west-2.amazonaws.com/sites/566671d2495b2d0018000000/theme/images/Udacity_horz_transition.svg?1454958981');
+  /* The Orange Logo looks better ;)*/
+  -webkit-filter: saturate(213%) brightness(178%) hue-rotate(180deg);
+  filter: saturate(213%) brightness(178%) hue-rotate(180deg);
+  background-size: 266px;
+}
+
+.MEETUP {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/73/Meetup_Logo_2015.png');
+  background-size: 315px;
+
+}
+
+.GITHUB {
+  background-image: url('https://octodex.github.com/images/daftpunktocat-thomas.gif');
+  background-size: 315px;
+  width: 300px !important;
+  border-radius: 150px !important;
+  background-color: #FFFFFF;
+}
+
+.TRAVEL {
+  margin-top: 33px!important;
+  background-image: url('https://image.freepik.com/free-vector/airplane-holiday-vector-template_23-2147491300.jpg');
+  background-size: 313px;
+  background-position: -26px -1px !important;
+  width: 287px!important;
+  min-height: 272px!important;
+  border-radius: 107px !important;
+}
+
+.icon-atom {
+  height: 50px;
+  padding: 5px;
+  border: 2px solid #E1E1E1;
+  border-radius: 25px;
+  vertical-align: top;
+}

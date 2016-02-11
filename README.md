@@ -20,6 +20,7 @@ http://startweb.me - Inspiration for Beginning Web Developers
 * Use of code comments
 * Use of image editors and image manipulation techniques
 * Use of animation principles
+* Use of security (https protocol)
 * Use of sophisticated media design (interactive & aesthetically appealing visuals as well as magnetic ambience music)
 * Demonstration of user-centered design through interviews with web design students to collect feedback
 * Demonstrating advanced conceptual design through conceiving personas and gearing content to them

@@ -51,4 +51,6 @@ http://startweb.me - Inspiration for Beginning Web Developers
 * DevTips, Codecademy, Udacity, GitHub, Meetup and Lanyrd for having available content to use and link to
 * Projects like jQuery, Google Analytics, Animate.css, Hover.css, textillate, sketch, wow.js etc. for their code
 * Chrome and Atom for great dev tools - w00t!
+* Sir Tim Berners-Lee for dedication of inventing HTML and the World Wide Website
+* Community of developers worldwide for their inspiration
 * University of Toronto Mississauga - Computer Science & Communication, Culture, Information and Technology (CCIT) Departments for providing valuable learning opportunities

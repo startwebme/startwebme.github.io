@@ -229,9 +229,6 @@
 
 .UDACITY {
   background-image: url('https://auth.udacity.com/images/logo-5df7f.svg');
-  /* The Orange Logo looks better ;)*/
-  -webkit-filter: saturate(213%) brightness(178%) hue-rotate(180deg);
-  filter: saturate(213%) brightness(178%) hue-rotate(180deg);
   background-size: 266px;
 }
 

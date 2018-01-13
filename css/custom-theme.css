@@ -228,7 +228,7 @@
 }
 
 .UDACITY {
-  background-image: url('https://endor-dev.s3-us-west-2.amazonaws.com/sites/566671d2495b2d0018000000/theme/images/Udacity_horz_transition.svg?1454958981');
+  background-image: url('https://auth.udacity.com/images/logo-5df7f.svg');
   /* The Orange Logo looks better ;)*/
   -webkit-filter: saturate(213%) brightness(178%) hue-rotate(180deg);
   filter: saturate(213%) brightness(178%) hue-rotate(180deg);

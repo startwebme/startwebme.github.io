@@ -1,5 +1,5 @@
 # startwebme.github.io
-http://startweb.me - Inspiration for Beginning Web Developers
+http://startwebme.github.io - Inspiration for Beginning Web Developers
 
 
 
